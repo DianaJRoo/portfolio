@@ -1,7 +1,7 @@
 import  React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({ images , title, description1, description2, description3, descriptionLink2, descriptionLink3, buttonLink }) => {
+const Card = ({ images , title, description1, description2, description3, descriptionLink2, descriptionLink3, buttonLink, textButton }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -18,8 +18,8 @@ const Card = ({ images , title, description1, description2, description3, descri
 
   return (
     <div id='hero' className='flex flex-col justify-center items-center mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20'>
-    <div className="flex flex-col md:flex-row bg-neutral-100 border border-gray-200 rounded-lg overflow-hidden mt-1 mb-1 transform hover:scale-110 transition-transform duration-300 ease-in-out hover:shadow-xl" style={{ width: '50rem', height: '20rem' }}>
-        <div className="relative w-full md:w-1/2">
+    <div className="flex flex-col md:flex-row bg-neutral-100 border border-gray-200 rounded-lg overflow-hidden mt-1 mb-1 transform hover:scale-110 transition-transform duration-300 ease-in-out hover:shadow-xl" style={{ width: '60rem', height: '20rem' }}>
+        <div className="relative w-full h-full">
             <img className="w-full h-full object-cover" src={images[currentImageIndex]} alt={title} />
             
             <button
@@ -45,7 +45,8 @@ const Card = ({ images , title, description1, description2, description3, descri
             <div className="mt-4">
                 <a href={buttonLink} target="_blank" rel="noopener noreferrer">
                     <button className="rounded-md bg-pink-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                        Link
+                        {textButton}
+      
                     </button>
                 </a>
             </div>

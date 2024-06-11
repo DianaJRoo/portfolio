@@ -20,6 +20,7 @@ import Card from './card';
                 title="Certificado"
                 description2= <FaLinkedin className="hover:animate-pulse text-3xl"/> 
                 description3= <LuGithub className="hover:animate-pulse text-3xl"/>
+                textButton= "Ir a Certificado"
                 descriptionLink2= "https://www.linkedin.com/school/4geeks-academy-latino/"
                 descriptionLink3="https://github.com/4GeeksAcademy"
                 buttonLink="https://certificate.4geeks.com/3de89a75e3fd415be81a2de554ae1bd98cdf2821"

@@ -15,15 +15,15 @@ import { SiFlask, SiMysql, SiPostman } from "react-icons/si";
     return (
         <>
 
-            <div id='hero-body' className="flex flex-col justify-center items-center mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20 bg-gradient-to-r from-stone-400 via-stone-200 to-stone-300 min-h-screen ">
+            <div id='hero-body' className="flex flex-col  items-center mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20 bg-gradient-to-r from-zinc-300 via-zinc-200 to-zinc-100 min-h-screen ">
                 <h1 className="animate-pulse animate-infinite mb-3  text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                 &lt;Full Stack Developer/&gt;
                 </h1>
 
-                <p>
-                    Hola, soy Diana JRoo, una apasionada desarrolladora web con un fuerte enfoque en crear soluciones digitales eficientes y atractivas. Soy una persona proactiva y dinámica, siempre buscando mejorar y aprender nuevas habilidades.<br />
+                <p className="mt-2">
+                    Hola, soy Diana JRoo, una apasionada desarrolladora web con un fuerte enfoque en crear soluciones digitales eficientes y atractivas. Soy una persona proactiva y dinámica, siempre buscando mejorar y aprender nuevas habilidades.<br /><br />
 
-                    Además, tengo experiencia en servicio al cliente, lo que me ha permitido desarrollar excelentes habilidades comunicativas y una capacidad para entender y satisfacer las necesidades de los usuarios. Mi enfoque colaborativo y mi habilidad para trabajar bien en equipo me permiten llevar a cabo proyectos con éxito, siempre buscando la excelencia en cada detalle.<br />
+                    Además, tengo experiencia en servicio al cliente, lo que me ha permitido desarrollar excelentes habilidades comunicativas y una capacidad para entender y satisfacer las necesidades de los usuarios. Mi enfoque colaborativo y mi habilidad para trabajar bien en equipo me permiten llevar a cabo proyectos con éxito, siempre buscando la excelencia en cada detalle.<br /><br />
   
                     Durante mis estudios, he adquirido experiencia trabajando con una variedad de tecnologías clave en el desarrollo web y de software. Estas incluyen <span>HTML, CSS, Bootstrap</span> y <span>Tailwind CSS</span>, que son fundamentales para la creación de interfaces de usuario atractivas y responsivas. Además, he desarrollado habilidades en programación utilizando <span>Python, JavaScript</span> y <span>React</span>, lo que me ha permitido construir aplicaciones dinámicas e interactivas. También he trabajado con bases de datos utilizando <span>SQLAlchemy</span> en <span>Python</span>, así como con <span>Flask </span>para la creación de servidores web. Además, he explorado las capacidades de <span>Firebase</span> para el desarrollo de aplicaciones web en tiempo real y la gestión de bases de datos en la nube. Estas experiencias han ampliado mi conjunto de habilidades y me han preparado para enfrentar desafíos en el campo del desarrollo de software con confianza y creatividad.
 
