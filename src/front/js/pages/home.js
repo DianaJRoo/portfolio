@@ -14,11 +14,7 @@ import Footer  from "../component/footer";
 
 	return (
 		<>
-			<Navbar />
-			<About />
-			<Certificado />
-			<Proyectos />
-			<Footer />
+			
 		</>
 	);
 };

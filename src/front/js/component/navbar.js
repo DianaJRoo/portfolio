@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link to="/about" className="text-pink-300 bg-pink-900 text-white rounded-md px-5 py-3 text-sm font-medium" aria-current="page">Sobre Mí</Link>
             <Link to="/certificado" className="text-pink-300 hover:bg-pink-700 hover:text-white rounded-md px-5 py-3 text-sm font-medium">Certificación</Link>
             <Link to="/proyectos" className="text-pink-300 hover:bg-pink-700 hover:text-white rounded-md px-5 py-3 text-sm font-medium">Proyectos</Link>
-            <a href="#" className="text-pink-300 hover:bg-pink-700 hover:text-white rounded-md px-5 py-3 text-sm font-medium">Contáctame</a>
+            <Link to="/contactame" className="text-pink-300 hover:bg-pink-700 hover:text-white rounded-md px-5 py-3 text-sm font-medium">Contáctame</Link>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
       <Link to="/about" className="bg-pink-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Sobre mi</Link>
       <Link to="/certificado" className="text-pink-300 hover:bg-pink-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Certificado</Link>
       <Link to="/proyectos" className="text-pink-300 hover:bg-pink-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Proyectos</Link>
-      <a href="#" className="text-pink-300 hover:bg-pink-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contáctame</a>
+      <Link to="/contactame" className="text-pink-300 hover:bg-pink-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contáctame</Link>
     </div>
   </div>
 </nav>

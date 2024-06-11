@@ -15,7 +15,7 @@ import { SiFlask, SiMysql, SiPostman } from "react-icons/si";
     return (
         <>
 
-            <div id='hero-body' className="flex flex-col  items-center mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20 bg-gradient-to-r from-zinc-300 via-zinc-200 to-zinc-100 min-h-screen ">
+            <div id='hero-body' className="flex flex-col  items-center mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20 bg-gradient-to-r from-zinc-300 via-zinc-200 to-zinc-100 min-h-screen mb-0 ">
                 <h1 className="animate-pulse animate-infinite mb-3  text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                 &lt;Full Stack Developer/&gt;
                 </h1>
