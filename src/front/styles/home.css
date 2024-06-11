@@ -1,0 +1,58 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+
+
+.jura- {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.m-plus-1-code-
+{
+  font-family: "M PLUS 1 Code", monospace;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+h1{
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-size: xx-large;
+}    
+
+p{
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+}
+
+span{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 100;
+  font-size: 20px;
+ }
+.icon{
+ font-size: 50px;
+ padding: 5px;
+
+}
