@@ -1,7 +1,7 @@
 import  React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({ images , title, description1, buttonLink }) => {
+const Card = ({ images , title, description1, description2, description3, descriptionLink2, descriptionLink3, buttonLink }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -36,9 +36,11 @@ const Card = ({ images , title, description1, buttonLink }) => {
             </button>
         </div>
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center px-6 py-4">
-            <div className="font-bold text-l mb-2 text-center w-full">{title}</div>
-            <p className="text-gray-700 text-base text-center">
+            <div className="font-bold text-lg mb-2 text-center w-full">{title}</div>
+            <p className="text-gray-700 text-base text-center mt-2">
                 <strong>{description1}</strong>
+                <a href={descriptionLink2} target="_blank" rel="noopener noreferrer"> <strong>{description2}</strong></a>
+                <a href={descriptionLink3} target="_blank" rel="noopener noreferrer"> <strong>{description3}</strong></a>
             </p>
             <div className="mt-4">
                 <a href={buttonLink} target="_blank" rel="noopener noreferrer">
