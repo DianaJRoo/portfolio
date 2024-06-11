@@ -12,10 +12,10 @@ import Footer  from "../component/footer";
 
 	return (
 		<>
-			<Navbar />
+			
 			<About />
 			<Certificado />
-			<Footer />
+			
 		</>
 	);
 };
