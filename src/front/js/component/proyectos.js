@@ -20,7 +20,7 @@ const Proyectos = () => {
     return <>
 
 
-        <div className="flex flex-col justify-center aling-center ">
+        <div className="flex flex-col justify-center aling-center">
 
             <Card
                 images={[
@@ -77,7 +77,7 @@ const Proyectos = () => {
 
                 title="Contact List"
                 description1="HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT, FLUX, API. "
-
+                textButton="Ver Proyecto"
                 buttonLink="https://contactlistjroo.netlify.app/"
             />
 
@@ -92,7 +92,7 @@ const Proyectos = () => {
 
                 title="ToDoList"
                 description1="HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT. "
-
+                textButton="Ver Proyecto"
                 buttonLink="https://todolistjroo.netlify.app/"
             />
 

@@ -4,11 +4,11 @@ import { LuGithub } from "react-icons/lu";
 
 const Contactame = () => {
   return <>
-    <div id='body' className='flex flex-col justify-center mt-0 mb-0 items-center'  >
+    <div id='body' className='flex flex-col justify-center mt-0 mb-0 items-center w-full'>
 
-      <form className="flex flex-col items-center p-4 mx-auto max-w-screen-sm   ">
+      <form className="flex flex-col items-center p-4 w-full" >
 
-        <div id="form1" className="border  border-gray-900/10 pb-15 p-4 mx-auto max-w-screen-md rounded-lg shadow-2 bg-gradient-to-r from-zinc-300 via-zinc-200 to-zinc-100">
+        <div id="form1" className="border w-full border-gray-900/10 pb-15 p-4 mx-auto max-w-2xl rounded-lg shadow-2 bg-gradient-to-r from-zinc-300 via-zinc-200 to-zinc-100">
           <h2 className="text-base font-semibold leading-7 text-gray-900 flex justify-center">
             Contáctame
           </h2>
